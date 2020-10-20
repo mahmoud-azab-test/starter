@@ -8,3 +8,6 @@ php artisan ui vue --auth
 npm install && npm run dev
 php artisan migrate
 composer dump-autoload
+composer require laravel/Socialite
+php artisan make:controller SocailController
+php artisan optimize:clear
